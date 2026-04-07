@@ -1,3 +1,7 @@
+Write a program to impliment 'Singly Circuler Linked List' with the folloeing menu driven options: 
+1. Insert at beginning 2. Insert at ending 3. Delete from beginning 4. Delete from ending
+5. Display 6. Count node 7. Insert by position 8. Delete by position 9. Delete by data 0. Exit.
+
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
@@ -113,7 +117,7 @@ struct node* inspos(struct node *last){
     }
     return last;
 }
-//DELETE FROM GIVEN POSITION
+//DELETE BY GIVEN POSITION
 struct node* delpos(struct node *last){
  int pos, size=countnode(last);
  printf("\nenter position: ");
