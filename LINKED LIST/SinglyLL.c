@@ -1,7 +1,7 @@
-/*Impliment a singly linked list with the following menu driven operation:
-1.INSERT AT BEGINNING, 2.INSERT AT ENDING, 3.DELETE FROM BEGINNING, 
-4.DELETE FROM ENDING, 5.INSERT AT POSITION, 6.DELETE FROM POSITION, 
-7.DELETE BY DATA, 8.DISPLAY, 0.EXIT.
+/*Impliment a 'Singly Linked List' with the following menu driven operation:
+1.INSERT AT BEGINNING 2.INSERT AT ENDING 3.DELETE FROM BEGINNING 
+4.DELETE FROM ENDING 5.INSERT AT POSITION 6.DELETE FROM POSITION 
+7.DELETE BY DATA 8.DISPLAY 0.EXIT.
 -----------------------------------------------------------------------------------*/
 
 #include<stdio.h>
